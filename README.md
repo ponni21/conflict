@@ -1,5 +1,6 @@
 # conflict
 <<<<<<< HEAD
-prientln ("welcome to git session");
-println ("welcome to git lab session");
-
+FROM UBUNTU
+RUN apt-get update
+RUN apt-get Install -y py
+ENTERYPOINT /lib/doc/dockerfile
